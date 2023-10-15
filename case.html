@@ -5,6 +5,93 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Case study for myFlix movie application, a web development project" />
         <link rel="shortcut icon" type="image/png" href="assets/shortcut-icon-img.png" sizes="32x32" />
-        
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.production.css" />
+        <title>Case Study myFlix Application</title>
     </head>
+
+    <body class="case-body">
+        <header class="case-header">
+            <a href="index.html" class="back-link">&#8249; Go Back to Main Page </a>
+        </header>
+        <div class="case-study" id="case-start">
+            <h1> Case study for <span class="myflix-style">myFlix</span> Full-Stack Web Development Project</h1>
+            <div class="intro">
+                <div class="intro-content">
+                    <h2>Overview</h2>
+                    <p><span class="myflix-style">myflix</span> is a web application, developed using the MERN stack, that provides users with access to information about movies, directors, and genres. Users are able to create an account, update their personal data, and create a list of favorite movies from the database.</p>
+                    <br />
+                    <h2> Purpose & Content </h2>
+                    <p><span class="myflix-style">myFlix</span> was a personal project that I built as part of my Web Development course at CareerFoundry to showcase my mastery of full-stack JavaScript development.</p>
+                    <br />
+                    <h2> Objective</h2>
+                    <p> The goal of the project was to create a comprehensive full-stack project that I can include in my professional portfolio. For this purpose, I built the complete server-side and client-side for the application from scratch.</p>
+                </div>
+                <div class="intro-img">
+                    <img src="assets/myflix-fullscreen.png" alt="screenshot of movie list" />
+                </div>
+            </div>
+            <h2 class="approach-title">Approach</h2>
+            <div class="server-side">
+                <div class="server-content">
+                    <h3>Server-Side</h3>
+                    <p>I created a RESTful API using Node.js and Express that interacts with a non-relational database on MongoDB. The API is accessible via commonly used HTTP methods like GET or POST.  In order to retrieve data from and store data into the database, CRUD methods are being used. The API provides movie information in JSON format.</p>
+                    <br />
+                    <p>
+                        Postman was used to test the API. With this, I used authentication and authorization code in the form of basic HTTP authentication and JWT authentication.</p>  
+                    </p>
+                </div>
+                <div class="server-img">
+                    <img src="assets/postman-unauthorized.png" alt="screenshot of unauthorized postman test" />
+                    <img src="assets/postman-authorized.png" alt="screenshot of authorized postman test" />
+                </div>
+            </div>
+            <div class="client-side">
+                <div class="client-content">
+                    <h3>Client-Side</h3>
+                    <p>After the API was completed, I began to develop the interface that users would need when making requests, and receiving responses, from the server-side. It is a responsive application developed using React and React-Redux. It provides the users with several interface views such as main view, single movie view with all data about a single movie in database, a login view, a registration view, and a profile view where users are able to update their information and 'favorite movies' list.</p>
+                </div>
+                <div class="client-img">
+                    <div><img src="assets/login.png" alt="screenshot of login view"</div>
+                    <div><img src="assets/movie.png" alt="screenshot of movie-view"</div>
+                    <div><img src="assets/profile.png" alt="screenshot of profile view"</div>
+                </div>
+            </div>
+                <h2>Development Challenges</h2>
+            <div class="challenges">
+                <h2>Development Challenges</h2>
+                <p>This has been my favorite project that was part of my web development course, and which I continue to update as I am an avid movie aficionado.  I have enjoyed building, updating the API, and making sure content is updated for users to view and access. What made this project challenging was the fact that I used different tools to build the application given that my personal computer was very outdated and many compatibility issues arose that caused unforseen delays. Notwithstanding these issues, I was able to achieve the same outcome as expected using the valuable assistance from my mentor and tutor, and from reading postings on Stack Overflow and looking at similar projects found online. In the end, after some delays both my mentor and tutor were pleased with my resourcefulness in resolving the issues, and coming up with a fully-functional and aesthetically pleasing application. </p>
+            </div>
+            <div class="duration">
+                <h2>Duration</h2>
+                <p>The development of the client-side of this application took me nearly thrice as long as it would have normally taken because of all of the technical compatibility issues that arose during the building process. However, I found a workaround which impressed my mentor and tutor when I was finally able to submit the project for approval. Despite these challenges, I enjoyed very much working on this project as I learned a great deal about troubleshooting and about being resourceful.</p>
+            </div>
+            <div class="credits">
+                <h2>Credits</h2>
+                <ul>
+                    <li>Role: Lead Developer</li>
+                    <li>Tutor: Andrew Gad</li>
+                    <li>Mentor: Renish Bhaskaran</li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-links"><a href="https://github.com/EJQuezada/my-Flix-client" target="_blank">Code</a><a href="https://edgarmovieflix.netlify.app/" target="_blank">Demo</a><a href="index.html#work" target="_blank">Back</a></div>
+
+        <section class="social case-social">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/edgarjquezada/" target="_blank"><img src="assets/linkedin.svg" alt="linkedin icon" /></a>
+                </li>
+                <li>
+                    <a href="https://github.com/EJQuezada/" target="_blank"><img src="assets/github.svg" alt="github icon" /></a>
+                </li>
+            </ul>
+        </section>
+        <footer class="case-footer">
+            <p class="credit">&copy; Copyright 2023</p>
+            <a href="#case-start"><span class="material-icons arrow-up"> keyboard_arrow_up </span></a>
+        </footer>
+    </body>
 </html>
