@@ -334,7 +334,8 @@ nav{
 }
 
 .material-icons {
-    color: #5788e3
+    color: #5788e3;
+    font-size: 32px;
 }
 
 .btn-cv {
