@@ -1,4 +1,4 @@
-## Portfolio Website
+# Portfolio Website
 
 A responsive one-page website to showcase my professional web development portfolio which I built following a mobile-first approach. 
 
