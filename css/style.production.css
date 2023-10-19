@@ -78,6 +78,8 @@ img {
     display: block;
     height: auto;
     width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
