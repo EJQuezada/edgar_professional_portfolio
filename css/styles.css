@@ -350,7 +350,8 @@ nav {
 }
 
 .myflix-card h4, 
-.chatapp-card h4 {
+.chatapp-card h4,
+.meet-application-card h4 {
     text-align: left;
     padding: 0;
     margin-top: 1em;
