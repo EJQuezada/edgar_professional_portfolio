@@ -148,14 +148,14 @@
                         <h3 class="project-title">myFlix Movie Application</h3>
                         <p>It is a web application that provides users with access to information about movies, directors, genres, and release date. Users are able to register, update personal data, and create a list of favorite movies based on what is available in the database. The MERN stack was used to develop the server-side and the client-side.</p>
                         <div class="read-more-myflix">
-                            <h4>Server-Side</h4>
+                            <h4>Server-Side Technical Info</h4>
                             <p>
                                 Using Node.js and Express, I created a RESTful API that interacts with a non-relational database (MongoDB). The API is accessible via HTTP methods like GET or POST. CRUD methods are used in order to retrieve data from and store data into the movie database. The API provides movie information in JSON format.
                                 <br />
                             </p>
                             <p>In order to test the API, I made use of Postman. Moreover, I included user authentication and authorization code in the form of basic HTTP authentication and JWT authentication.</p>
-                            <h4>Client-Side</h4>
-                            <p>Once the API had been built, I began to build the interfact that users would need when interacting with the server-side. It is a responsive application developed using React and React-Redux. It provides several views, including a main view which shows a list of all the movies in the database, single movie view which allows users to add it to their favorites list, a login view, a registration view, and a profile view where registered users are able to update their information and list of favorites.</p>
+                            <h4>Client-Side Technical Info</h4>
+                            <p>Once the API was built, I began to build the interfact that users would need when interacting with the server-side. It is a responsive application developed using React and React-Redux. It provides several views, including a main view which shows a list of all the movies in the database, single movie view which allows users to add it to their favorites list, a login view, a registration view, and a profile view where registered users are able to update their information and list of favorites.</p>
                             <h4>Conclusion</h4>
                             <p>This was a challenging project given the combination of different tools and technologies, but it has been my favorite project of the course so far. I have enjoyed using the Terminal while building the API and working with database structures. While developing the client-side, React and Redux worked to produce the outcome I desired for this project. With the guidance of my mentor and tutor, we overcame some technology limitations from my 4+ years-old laptop.</p>
                         </div>
@@ -167,10 +167,10 @@
                     <img class="project-img" src="assets/chatapp.png" alt="screenshots of start screen and chat screen" />
                     <div class="card-content">
                         <h3 class="project-title">Native Chat Application</h3>
-                        <p>A chat application for mobile devices built using React-Native. Using the chat interface, users are able to send/receive text messages, images, and share their location.</p>
+                        <p>A chat application for use with mobile devices. Using the chat interface, users are able to send/receive text messages, images, and share their location.</p>
                         
                         <h4>Technical Info</h4>
-                            <p>Using Expo.io to develop the application, it was optimized to function both on Android and iOS devices. Using Gifted Chat library, I created the interface and functionality of the application.</p>
+                            <p>The application was built using React Native. In order to monitor the development of this application, I used Expo.io and Android Studio. The application was optimized to function both on Android and iOS devices. Using Gifted Chat library, I created the interface and functionality of the application.</p>
                             <p>
                                 In order to store the messages, I the Google Firestore Database. For image storing, I used Google's Firebase Cloud Storage. Moreover, in order for chat conversations to be accessible when offline, I implemented asyncStorage to store the messages locally. In order to authenticate users anonymously, I used Google Firebase authentication.<br />
                             </p>
@@ -188,43 +188,56 @@
 
                     <div class="card-content">
                         <h3 class="project-title">Meet Application</h3>
-                        <p>It is a serverless progressive web application (PWA) that was built using React and a test-driven development (TDD) approach. </p>
-                        
+                            <p>It is a serverless progressive web application (PWA) that was built using React and a test-driven development (TDD) approach. </p>
+        
                         <h4> Technical Info </h4>
                             <p>The application uses an API to fetch upcoming event for selected cities, uses OAuth2 authentication flow. The app uses AWS Lambda for the authorization server. Also, using the OOP approach, user alerts are created. </p>
-                            <p>Given the use of a service worker, the app works while offline. </p>
-                            <p>In order to visualize data, I used the recharts library to create a scatter plot graph and a pie chart for events fitting the search criteria. </p>
+                            <p>Given the use of a service worker, the app works also while offline. Application uses tokens for authorization and access of Google Calendar API. </p>
+                            <p>Moreover, in order to visualize data, I used the Recharts library to create a scatter-plot graph and a pie-chart for events fitting the search criteria. </p>
+                        <h4> Conclusion </h4>
+                            <p>While building the Meet Application, I learned quickly how to utilize the google-calendar API to generate a sample of events that could be sorted by types of event and event location. </p>
                     </div>
                     <div class="project-links"><a href="https://github.com/EJQuezada/Meet-Application" target="_blank" rel="noopener noreferrer">Code</a><a href="https://ejquezada.github.io/Meet-Application/" target="_blank" rel="noopener noreferrer">Case Study</a></div>
-                </div>
+                </div> 
 
-                <div class="card project-card">
+                <div class="card project-card portfolio-page-card">
                     <img src="assets/portfolio.png" alt="screenshot of home screen in portfolio page" />
 
                     <div class="card-content">
                         <h3 class="project-title">Portfolio Website</h3>
-                        <p>Created this responsive one page website to showcase my professional portfolio. </p>
+                        <p>Created the responsive one-page website your are looking at now in order to showcase my professional portfolio as I embark down the path of becoming the best possible full-stack web developer possible. </p>
                         <br />
                         <h4>Technical Info</h4>
                             <p>Portfolio website is built using pure HTML, CSS (flexbox, grid, etc.) and a sprinkle of JavaScript to enable hamburger menu toggling and buttons to function. </p>
-                            <p>The CSS code utilizes native variable for repetitive values. </p>
+                            <p>Moreover, the CSS code in this project utilizes native variable for repetitive values. </p>
                     </div>
                     <div class="project-links"><a href="https://github.com/EJQuezada/single_page_professional_portfolio/tree/main" target="_blank" rel="noopener noreferrer">Code</a></div>
                 </div>
 
-                <div class="card project-card">
+                <div class="card project-card pokedex-application-card">
                     <img src="assets/pokedex.png" alt="screenshot of open modal over the pokedex app" />
+                    
                     <div class="card-content">
                         <h3 class="project-title">Pokedex Application</h3>
-                        <p>Using JavaScript, HTML, CSS, jQuery, and Bootstrap framework, I built a small web application that allows users to browse a sample of Pokemons loaded from an external API. The Modal displays some information about the seleced Pokemon including its name. Finally, I formatted the code in the application to comply with ESLint.</p>
+                        <p>One of my first applications that I built from scratch to showcase a sampling of Pokemon characters via Modals that appear after a character box is selected. 
+                        <h4>Technical Info</h4>
+                        <p>Using JavaScript, HTML, CSS, jQuery, and the Bootstrap framework, I built a small web application that allows users to browse a sample of Pokemons loaded from an external API. The Modal displays some information about the selected Pokemon including its name. Finally, I formatted the code in the application to comply with ESLint.</p>
+                        <h4>Conclusion</h4>
+                        <p>In building this web-based application I learned a great deal about using APIs to make a less bulky application because it uses data that is stored online so that the application is able to load faster and be more stable. </p>
                     </div>
                     <div class="project-links"><a href="https://github.com/EJQuezada/simple-js-app" target="_blank" rel="noopener noreferrer">Code</a><a href="https://ejquezada.github.io/simple-js-app/" target="_blank" rel="noopener noreferrer">Demo</a></div>
                 </div>
-                <div class="card project-card">
+
+                <div class="card project-card ToDo_App-card">
                     <img src="assets/ToDo_App.png" alt="screenshot of basic to-do application" />
+                    
                     <div class="card-content">
                         <h3 class="project-title">To-Do-List-Application</h3>
-                        <p>Using jQuery, I built a simple, yet classic, application that creates a list of items on a user's 'To-Do' list. The user is able to modify the list by clicking on the button to 'add a task', and/or remove tasks from the list by clicking on the 'X'.</p>
+                        <p>I built a simple, yet classic, application that generates a list of items on a user's 'To-Do' list.  The user is able to modify the 'To-Do' list by clicking on a button to add a new task to the list, and/or remove tasks from the list by clicking on the 'X' to mark item as a completed task. </p>
+                        <h4>Technical Info </h4>
+                        <p>I used HTML, JavaScript, CSS, and jQuery in order to build this simple application.</p>
+                        <h4> Conclusion </h4>
+                        <p>Built the application to learn to utilize jQuery to quickly and easily code simple JS applications.</p>
                     </div>
                     <div class="project-links"><a href="https://ejquezada.github.io/To-Do-List-Application" target="_blank" rel="noopener noreferrer">Code</a><a href=https://github.com/EJQuezada/To-Do-List-Application/" target="_blank" rel="noopener noreferrer"> Demo</a> </div>
                 </div>
