@@ -58,7 +58,12 @@ img {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: disc;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
 a {
