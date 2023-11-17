@@ -32,8 +32,8 @@ div {
 
 /* Base styles */
 body {
-    background: var(--secondary-color);
-    color: var(--primary-font-color);
+    background: var(--secondary-bg-colorcolor);
+    color: var(--secondary-font-color);
     text-align: center;
     font-family: var(--font-family-body);
     font-size: 1em;
