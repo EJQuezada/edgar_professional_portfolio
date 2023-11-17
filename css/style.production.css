@@ -84,11 +84,6 @@ img {
 
 ul {
     list-style-type: none;
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
 }
 
 a {
@@ -369,8 +364,8 @@ nav{
     -ms-flex-pack: start;
     justify-content: flex-start;
     padding: 1.5em;
-    background: #0c0c0c;
-    color: #fff;
+    background: #fff;
+    color: #0c0c0c;
 }
 
 .devskills-tag {
