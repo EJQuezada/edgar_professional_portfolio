@@ -76,7 +76,13 @@ img {
 }*/
 
 ul {
+    display: block;
     list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 li {
@@ -327,8 +333,8 @@ nav {
     flex-flow: row wrap;
     justify-content: flex-start;
     padding: 1.5em;
-    background: var(--secondary-color);
-    color: var(--primary-font-color);
+    background: var(--secondary-bg-color);
+    color: var(--secondary-font-color);
 }
 
 .devskills-tag {
@@ -336,8 +342,8 @@ nav {
     padding: 0.5em;
     flex-grow: 1;
     max-width: 9em;
-    background: var(--scondary-darker);
-    color: var(--primary-font-color);
+    background: var(--secondary-bg-color);
+    color: var(--secondary-font-color);
     text-transform: uppercase;
     font-size: 0.3em;
 }
