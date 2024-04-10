@@ -75,8 +75,8 @@ p {
 }
 
 img {
-    display: block;
-    height: 475px;
+    display: flex;
+    height: 350px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
